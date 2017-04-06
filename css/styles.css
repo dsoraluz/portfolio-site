@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #C7D1D8;
+}
+
+p {
+  font-size: 20px;
+  padding: 15px;
+}
+
+
+#about, #projects, #stack {
+  text-align: center;
+  height: 40%;
+  background: #283E4A;
+  margin-top: 0;
+}
+
+#about-parallax, #project-parallax, #stack-parallax{
+  height: 80vh;
+}
+
+.overlay {
+  background-color: rgba(57,66,75, .5);
+    height: 100%;
+    width: 100%;
+}
+
+
+.projects-container {
+  display: block;
+}
+
+.project-image {
+  padding: 15px;
+  max-height: 250px;
+}
+
+#stack img{
+  max-height: 250px;
+}
+
+#stack img:hover{
+  max-height: 250px;
+  background-color: rgba(57,66,75,.5);
+}
